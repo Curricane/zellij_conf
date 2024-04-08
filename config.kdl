@@ -53,7 +53,7 @@ keybinds {
         bind "c" { SwitchToMode "RenamePane"; PaneNameInput 0;}
     }
     move clear-defaults=true {
-        bind "Ctrl h" { SwitchToMode "Normal"; }
+        bind "Esc" { SwitchToMode "Normal"; }
         bind "n" "Tab" { MovePane; }
         bind "p" { MovePaneBackwards; }
         bind "h" "Left" { MovePane "Left"; }
